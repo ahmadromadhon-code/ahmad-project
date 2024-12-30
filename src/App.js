@@ -12,7 +12,7 @@ const particleInitialization = async(engine) => {
 }
 
 function timeLeft() {
-const newYeardate = new Date("January 1, 2024 00:00:00").getTime()
+const newYeardate = new Date("January 1, 2025 00:00:00").getTime()
 const nowDate = new Date().getTime()
 const remainingTime = newYeardate - nowDate
 return remainingTime
