@@ -3,6 +3,7 @@ import { loadFireworksPreset } from "tsparticles-preset-fireworks"
 import { Typewriter } from "react-simple-typewriter";
 import { useState } from "react";
 import Countdown from "react-countdown";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 const [newYearMessage, setNewYearMessage] = useState(["Bye 2024!"])
