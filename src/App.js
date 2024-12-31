@@ -6,7 +6,7 @@ import Countdown from "react-countdown";
 
 
 function App() {
-const [newYearMessage, setNewYearMessage] = useState(["Bye 2024!"])
+const [newYearMessage, setNewYearMessage] = useState(["Welcome PPN 12%"])
 
 const particleInitialization = async(engine) => {
   await loadFireworksPreset(engine)
@@ -29,7 +29,7 @@ return remainingTime
       <span className="text-white text-4xl font-bold z-50">
         <Typewriter words={newYearMessage} 
         loop={false}
-        cursorStyle={"👻"}
+        cursorStyle={"🤣"}
         cursor
         />
       </span>
