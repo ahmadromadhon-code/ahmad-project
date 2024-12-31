@@ -35,7 +35,7 @@ return remainingTime
       </span>
       <div className="z-50 text-white font-bold text-2xl">
         <Countdown date={Date.now() + timeLeft()} onComplete={() => setNewYearMessage([
-          "Selamat", "Tahun", "Baru", "2025", "Happy New Year 🥳","pemerintah gathel😡"
+          "Selamat", "Tahun", "Baru", "2025", "Happy New Year 🥳"
         ])}
         />
       </div>
